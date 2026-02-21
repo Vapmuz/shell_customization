@@ -20,7 +20,7 @@ binaries=(
 
 asciidoc
 autoconf
-
+wget
 
 coreutils
 
