@@ -1,0 +1,48 @@
+#test if working
+alias ,leo="ls"
+
+
+# oh-my-zsh
+
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="simple"
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+# settings
+#export PS1='[\W]\$ '
+
+export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
+export PATH="$PATH:/usr/local/bin/:/Users/leonardo/shell_customization/bin"
+
+
+
+
+#
+# Folder
+#
+
+alias ~="cd ~"                           # ~:            Go Home
+alias d="cd ~/Desktop/"                 # ~:            Desktop
+
+# hf = history find
+alias hf='history | grep -i '
+alias f="readlink -f "
+alias now='export TODAY=$(date +%F) MESE=$(date "+%b %Y") && echo "T: $TODAY M: $MESE"'
+
+
+#
+# Settings per homebrew
+#
+
+export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK=1
+
+
+
+
+
+
+
+
