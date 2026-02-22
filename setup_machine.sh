@@ -109,6 +109,7 @@ brew install ${binaries[@]}
 # Apps
 apps=(
 
+graphviz
 brave-browser
 calibre
 copyq
