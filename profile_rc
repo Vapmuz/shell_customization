@@ -25,7 +25,7 @@ export PATH="$PATH:/usr/local/bin/:/Users/leonardo/shell_customization/bin"
 
 alias ~="cd ~"                           # ~:            Go Home
 alias d="cd ~/Desktop/"                 # ~:            Desktop
-alias loway_tunnel = ssh -L 3000:aleph.loway.ch:3000 leonardo@10.10.3.9					# ~:		open tunnel (home) 
+alias loway_tunnel = "ssh -L 3000:aleph.loway.ch:3000 leonardo@10.10.3.9"					# ~:		open tunnel (home) 
 
 
 
